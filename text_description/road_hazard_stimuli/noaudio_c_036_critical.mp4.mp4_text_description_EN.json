@@ -1,0 +1,21 @@
+{
+    "scene_base_name": "noaudio_c_036_critical.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a wide highway, the weather is overcast.",
+        "A green car (car_2) is detected in the far left lane ahead.",
+        "In the middle lane, there is a white truck (truck_3) towing a motorboat trailer (motorcycle_10).",
+        "In the right lane of the white truck (truck_3) and the motorboat trailer (motorcycle_10), a white car (car_1) is driving.",
+        "The ego-vehicle is driving in the leftmost lane.",
+        "Additionally, a red large truck (truck_8) is detected on the grass on the left side.",
+        "In slightly congested traffic conditions, all vehicles are moving forward."
+    ],
+    "corrected_annotations": [
+        "On a wide highway, the weather is overcast.",
+        "A white car (car_2) is detected ahead.",
+        "In the right lane of the ego-vehicle, there is a white truck (truck_3) towing a motorboat trailer (car_10).",
+        "In the right lane of the white truck (truck_3) and the motorboat trailer (car_10), a white car (car_1) is driving.",
+        "The ego-vehicle is driving in the leftmost lane.",
+        "None",
+        "In slightly congested traffic conditions, all vehicles are moving forward."
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "truck_5",
+                "type": "truck"
+            },
+            {
+                "name": "car_4",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "traffic_light_5",
+                "type": "traffic_light"
+            },
+            {
+                "name": "person_7",
+                "type": "pedestrian"
+            },
+            {
+                "name": "road",
+                "type": "road"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "green",
+                "belong_to": "traffic_light_5"
+            },
+            {
+                "value": "holding_umbrella",
+                "belong_to": "person_7"
+            },
+            {
+                "value": "40_kmh_speed_limit",
+                "belong_to": "traffic_light_5"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_1",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_5",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "traffic_light_5",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "person_7",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_7",
+                "object_2": "car_1",
+                "type": "Nearby"
+            }
+        ]
+    }
+}

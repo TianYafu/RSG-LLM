@@ -1,0 +1,27 @@
+{
+    "scene_base_name": "autoware-20200909111127_0318_10.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, the weather is clear, a white car (car_10) is driving, located on the right side of the road.",
+        "The ego-vehicle is following closely behind.",
+        "In front of the white car (car_10) is a black car (car_7).",
+        "A black car (car_7) is following another white car (car_8).",
+        "On the left side of the road, there is a traffic sign with a speed limit of 40 km/h and a no parking sign.",
+        "On the right side of the road, near the traffic light, a black car (car_12) is passing by.",
+        "Meanwhile, a white car (car_11) is coming from the left side of the road.",
+        "A red car (car_13) is also passing from the left side.",
+        "The overall traffic condition shows that vehicles are driving in an orderly manner, with moderate traffic flow.",
+        "The ego-vehicle is preparing to cross the zebra crossing, while other vehicles on the road are following traffic rules and driving orderly."
+    ],
+    "corrected_annotations": [
+        "On a city road, the weather is clear, a white car (car_1) is driving in the opposite direction of the ego-vehicle, located on the right side of the road.",
+        "None",
+        "Car6, car_2, car_4, car_5 are driving in sequence on the opposite road of the ego-vehicle.",
+        "A black car (car_7) is following another white car (car_5).",
+        "On the left side of the road, there is a traffic sign with a speed limit of 40 km/h and a no parking sign.",
+        "On the right side of the road, near the traffic light, a black car (car_12) is passing by.",
+        "Meanwhile, a white car (car_11) is coming from the left side of the road.",
+        "A red car (car_13) is also passing from the right side.",
+        "The overall traffic condition shows that vehicles are driving in an orderly manner, with moderate traffic flow.",
+        "The ego-vehicle is preparing to cross the zebra crossing, while other vehicles on the road are following traffic rules and driving orderly."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "scene_base_name": "autoware-20200909111127_0274_10.mp4.mp4",
+    "gpt_scene_description_list": [
+        "Under clear weather, multiple traffic entities are using and waiting to use a city road.",
+        "On the right side of the road, a black car (car_2) is stopped in front of the crosswalk, and ahead is a pedestrian (pedestrian_5) standing on the sidewalk, very close to a motorcycle (motorcycle_4).",
+        "None",
+        "In front of the black car (car_2), a white car (car_5) is driving along the curve, and further ahead, a white car (car_6) and other smaller vehicles (car_8) are driving along the curve.",
+        "On the left side of the road ahead, behind the roadside trees, multiple cars (car_1, car_3, car_4) are queued, moving slowly.",
+        "Beside the road, there are two speed limit signs indicating that the speed limit in this area is 40 km/h and parking is prohibited.",
+        "The current traffic flow is moderate, and the moving vehicles are maintaining a good distance, demonstrating appropriate road usage norms.",
+        "The ego-vehicle is stopped in front of the crosswalk, waiting for the right moment to proceed."
+    ],
+    "corrected_annotations": [
+        "Under clear weather, multiple traffic entities are using and waiting to use a city road.",
+        "On the opposite lane of the ego-vehicle at the intersection ahead, car1, car2, and car3 are waiting in sequence to pass through.",
+        "Ahead, there is a pedestrian (pedestrian_5) standing on the sidewalk, riding a motorcycle (motorcycle_4), waiting to pass.",
+        "A white vehicle, car_7, enters from the left side of the intersection and proceeds straight through.",
+        "On the left side of the road ahead, behind the roadside trees, multiple cars (car_1, car_2, car_3) are queued, waiting for car_7 to pass.",
+        "Beside the road, there are two speed limit signs indicating that the speed limit in this area is 40 km/h and parking is prohibited.",
+        "The current traffic flow is moderate, and the moving vehicles are maintaining a good distance, demonstrating appropriate road usage norms.",
+        "The ego-vehicle is stopped in front of the crosswalk, waiting for the right moment to proceed."
+    ]
+}

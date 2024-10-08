@@ -1,0 +1,23 @@
+{
+    "scene_base_name": "scene_105.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, there is a row of vehicles neatly parked in parking spaces on the left side.",
+        "At the very front is a silver car (car_1), which will not move.",
+        "Next is a red car (car_0), followed by a silver car (car_8) and a white car (car_9), parked along the roadside in sequence.",
+        "A little further ahead, there is a brown car (car_10), and in front of it, there is a city truck (truck_4).",
+        "A little further away, a gray car (car_15) is driving out of a parking lot, merging into the main road.",
+        "None",
+        "On the right-hand side of the road, there is a white car (car_2), the vehicle is stationary, waiting for vehicles.",
+        "The weather is overcast, and the traffic flow is sparse."
+    ],
+    "corrected_annotations": [
+        "On a city road, there is a row of vehicles neatly parked in parking spaces on the left side.",
+        "At the very front is a silver car (car_1), which will not move.",
+        "Next is a red car (car_0), followed by a silver car (car_8) and a white car (car_9), parked along the roadside in sequence.",
+        "A little further ahead, there is a brown car (car_10), and in front of it, there is a city truck (truck_4) also parked by the roadside.",
+        "None",
+        "The ego-vehicle goes straight, passing these parked vehicles.",
+        "On the right-hand side of the road, there is a white car (car_2), going straight past the ego-vehicle.",
+        "The weather is overcast, and the traffic flow is sparse."
+    ]
+}

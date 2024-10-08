@@ -1,0 +1,173 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_8",
+                "type": "vehicle"
+            },
+            {
+                "name": "person_0",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_1",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_2",
+                "type": "pedestrian"
+            },
+            {
+                "name": "car_4",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_9",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_3",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_5",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_12",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_13",
+                "type": "vehicle"
+            },
+            {
+                "name": "pedestrian_0",
+                "type": "pedestrian"
+            },
+            {
+                "name": "barrier_1",
+                "type": "barrier"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_9"
+            },
+            {
+                "value": "lifting",
+                "belong_to": "barrier_1"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_8",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "person_0",
+                "object_2": "car_8",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_1",
+                "object_2": "car_8",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_2",
+                "object_2": "car_8",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_13",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "pedestrian_0",
+                "object_2": "road",
+                "type": "Crossing"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "barrier_1",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "barrier_1",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_9",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_8",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "person_0",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "person_1",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "person_2",
+                "type": "Approaching"
+            }
+        ]
+    }
+}

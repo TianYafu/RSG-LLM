@@ -1,0 +1,132 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_4",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_44",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_51",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_52",
+                "type": "vehicle"
+            },
+            {
+                "name": "highway",
+                "type": "road"
+            },
+            {
+                "name": "middle_lane",
+                "type": "lane"
+            },
+            {
+                "name": "left_lane",
+                "type": "lane"
+            },
+            {
+                "name": "right_lane",
+                "type": "lane"
+            },
+            {
+                "name": "barrier",
+                "type": "barrier"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "damaged",
+                "belong_to": "car_44"
+            },
+            {
+                "value": "good_condition",
+                "belong_to": "highway"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "middle_lane",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "right_lane",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "highway",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_44",
+                "object_2": "barrier",
+                "type": "collided-with"
+            },
+            {
+                "object_1": "car_44",
+                "object_2": "middle_lane",
+                "type": "stopped-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_44",
+                "type": "avoiding"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "car_44",
+                "type": "avoiding"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "right_lane",
+                "type": "parking-on"
+            },
+            {
+                "object_1": "car_51",
+                "object_2": "left_lane",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_52",
+                "object_2": "middle_lane",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "highway",
+                "object_2": "middle_lane",
+                "type": "contains"
+            },
+            {
+                "object_1": "highway",
+                "object_2": "left_lane",
+                "type": "contains"
+            },
+            {
+                "object_1": "highway",
+                "object_2": "right_lane",
+                "type": "contains"
+            },
+            {
+                "object_1": "highway",
+                "object_2": "barrier",
+                "type": "contains"
+            }
+        ]
+    }
+}

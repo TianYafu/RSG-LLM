@@ -1,0 +1,174 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_4",
+                "type": "car"
+            },
+            {
+                "name": "car_5",
+                "type": "car"
+            },
+            {
+                "name": "car_6",
+                "type": "car"
+            },
+            {
+                "name": "car_7",
+                "type": "car"
+            },
+            {
+                "name": "car_11",
+                "type": "car"
+            },
+            {
+                "name": "car_12",
+                "type": "car"
+            },
+            {
+                "name": "car_13",
+                "type": "car"
+            },
+            {
+                "name": "traffic_sign_1",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "traffic_sign_2",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_7"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_12"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_11"
+            },
+            {
+                "value": "red",
+                "belong_to": "car_13"
+            },
+            {
+                "value": "speed_limit_40",
+                "belong_to": "traffic_sign_1"
+            },
+            {
+                "value": "no_parking",
+                "belong_to": "traffic_sign_2"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_6",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_11",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_13",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "traffic_sign_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "traffic_sign_2",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_6",
+                "object_2": "car_2",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "car_4",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "car_5",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "car_5",
+                "type": "Following"
+            }
+        ]
+    }
+}

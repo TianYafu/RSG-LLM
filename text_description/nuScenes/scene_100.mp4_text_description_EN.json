@@ -1,0 +1,27 @@
+{
+    "scene_base_name": "scene_100.mp4",
+    "gpt_scene_description_list": [
+        "On a path with pedestrians and vehicles, a lifting gate can be seen gradually rising.",
+        "None",
+        "Near the left side of the frame, three people are unloading or moving items, namely (person_0), (person_1), (person_2).",
+        "These people are standing around a parked small truck (car_8).",
+        "In the middle of the road, there is a white bus (car_4) moving, which is far away and stationary.",
+        "Additionally, another white small truck (car_9) is parked in the parking space on the far right of the frame.",
+        "Several vehicles parked continuously on the right side of the road can be seen, namely (car_3), (car_5), (car_12), (car_13).",
+        "A pedestrian (pedestrian_0) is walking from the left towards the middle of the road, seemingly trying to cross the road.",
+        "The weather is clear, and the traffic flow is light; this is a relatively quiet residential or commercial area road.",
+        "According to Japan's left-hand traffic rules, the cantilever gate should be raised to allow vehicles and pedestrians to pass."
+    ],
+    "corrected_annotations": [
+        "On a path with pedestrians and vehicles, a lifting gate can be seen gradually rising.",
+        "The ego-vehicle drives into the lifting gate, approaching a small truck and a porter.",
+        "Near the left side of the frame, three people are unloading or moving items, namely (person_0), (person_1), (person_2).",
+        "These people are standing around a parked small truck (car_8).",
+        "In the middle of the road, there is a white bus (car_4), which is far away and stationary.",
+        "Another white small truck (car_9) is coming from a distance, approaching the ego-vehicle and the lifting gate, attempting to exit the lifting gate from the opposite lane.",
+        "Several vehicles parked continuously on the right side of the road can be seen, namely (car_3), (car_5), (car_12), (car_13).",
+        "A pedestrian (pedestrian_0) is walking from the left towards the middle of the road, seemingly trying to cross the road.",
+        "The weather is clear, and the traffic flow is light; this is a relatively quiet residential or commercial area road.",
+        "According to Japan's left-hand traffic rules, the cantilever gate should be raised to allow vehicles and pedestrians to pass."
+    ]
+}

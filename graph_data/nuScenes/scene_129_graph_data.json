@@ -1,0 +1,119 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_11",
+                "type": "truck"
+            },
+            {
+                "name": "car_12",
+                "type": "truck"
+            },
+            {
+                "name": "car_5",
+                "type": "pickup"
+            },
+            {
+                "name": "car_1",
+                "type": "truck"
+            },
+            {
+                "name": "car_4",
+                "type": "truck"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_11"
+            },
+            {
+                "value": "middle-left",
+                "belong_to": "car_11"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_12"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_4"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_11",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "car_1",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "car_4",
+                "type": "Following"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_11",
+                "type": "Following"
+            }
+        ]
+    }
+}

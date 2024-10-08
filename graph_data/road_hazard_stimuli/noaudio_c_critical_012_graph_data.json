@@ -1,0 +1,130 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "intersection_1",
+                "type": "intersection"
+            },
+            {
+                "name": "traffic_light_3",
+                "type": "traffic_light"
+            },
+            {
+                "name": "traffic_light_4",
+                "type": "traffic_light"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "car_6",
+                "type": "car"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_9",
+                "type": "car"
+            },
+            {
+                "name": "car_12",
+                "type": "car"
+            },
+            {
+                "name": "car_13",
+                "type": "car"
+            },
+            {
+                "name": "car_11",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "red",
+                "belong_to": "traffic_light_3"
+            },
+            {
+                "value": "red",
+                "belong_to": "traffic_light_4"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_11"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "road",
+                "object_2": "intersection_1",
+                "type": "successor"
+            },
+            {
+                "object_1": "road",
+                "object_2": "traffic_light_3",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "road",
+                "object_2": "traffic_light_4",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "intersection_1",
+                "type": "turn-right"
+            },
+            {
+                "object_1": "car_6",
+                "object_2": "intersection_1",
+                "type": "turn-right"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "car_6",
+                "type": "following"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "intersection_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "intersection_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "intersection_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "car_13",
+                "object_2": "intersection_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "car_11",
+                "object_2": "intersection_1",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "car_11",
+                "type": "collision"
+            }
+        ]
+    }
+}

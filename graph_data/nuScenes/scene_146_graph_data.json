@@ -1,0 +1,161 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_0",
+                "type": "car"
+            },
+            {
+                "name": "traffic_sign_0",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "person_0",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_1",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_2",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_3",
+                "type": "pedestrian"
+            },
+            {
+                "name": "bicycle_0",
+                "type": "bicycle"
+            },
+            {
+                "name": "bicycle_1",
+                "type": "bicycle"
+            },
+            {
+                "name": "bicycle_2",
+                "type": "bicycle"
+            },
+            {
+                "name": "person_5",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_6",
+                "type": "pedestrian"
+            },
+            {
+                "name": "van_0",
+                "type": "van"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_0"
+            },
+            {
+                "value": "white",
+                "belong_to": "van_0"
+            },
+            {
+                "value": "MERGE SLOW",
+                "belong_to": "traffic_sign_0"
+            },
+            {
+                "value": "holding_blue_round_object",
+                "belong_to": "person_1"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_0",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "traffic_sign_0",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "person_0",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_1",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_2",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_3",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "bicycle_0",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "bicycle_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "bicycle_2",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "person_5",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_6",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "van_0",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_0",
+                "type": "Following"
+            }
+        ]
+    }
+}

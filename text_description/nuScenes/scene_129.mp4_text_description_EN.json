@@ -1,0 +1,25 @@
+{
+    "scene_base_name": "scene_129.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, the recorded vehicle is moving forward.",
+        "Ahead on the road, there is a white van (car_11) that is moving and positioned slightly to the left of the center of the road.",
+        "Another white van (car_12) appears on the distant road, moving in the same direction.",
+        "On the right side, there is a black pickup truck (car_1) parked by the roadside, with the engine off and stationary.",
+        "In front of the black pickup truck (car_1), on the right side, there are several white vans (car_5 and car_4) also parked stationary by the roadside.",
+        "The relationship between these vehicles is mainly stationary parking and adjacent driving.",
+        "The weather is clear.",
+        "There are some trees and buildings on both sides of the road, and the image shows that this is a moderately trafficked urban area.",
+        "The ego-vehicle is following the white van (car_11), which is traveling in the same lane."
+    ],
+    "corrected_annotations": [
+        "On a city road, the recorded vehicle is moving forward.",
+        "Ahead on the road, there is a white van (car_11) that is moving and positioned slightly to the left of the center of the road.",
+        "Another white van (car_12) appears on the opposite lane, heading towards the ev.",
+        "On the right side, there is a black pickup truck (car_5) parked by the roadside, with the engine off and stationary.",
+        "In front of the black pickup truck (car_5), on the right side, there are several white vans (car_1 and car_4) also parked stationary by the roadside.",
+        "The relationship between these vehicles is mainly stationary parking and adjacent driving.",
+        "The weather is clear.",
+        "There are some trees and buildings on both sides of the road, and the image shows that this is a moderately trafficked urban area.",
+        "The ego-vehicle is following the white van (car_11), which is traveling in the same lane."
+    ]
+}

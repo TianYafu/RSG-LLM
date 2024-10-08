@@ -1,0 +1,23 @@
+{
+    "scene_base_name": "autoware-20200909112756_0211_10.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, the weather is clear, and the traffic flow is light.",
+        "Ahead on the right, there is a dark-colored car (car_1) driving and about to pass the crosswalk.",
+        "On the left side of the vehicle, there is a pedestrian (person_1) standing by the roadside, possibly waiting to cross the street.",
+        "On the right side of the road are buildings and plants, and on the left side, there is a public parking lot building.",
+        "There are guardrails on both sides of the road to protect pedestrians from walking on the road.",
+        "The traffic sign ahead indicates a safety reminder for pedestrians crossing the street.",
+        "There is also a stop sign ahead, reminding vehicles to stop before proceeding.",
+        "The crosswalk markings are very clear, ensuring pedestrian safety."
+    ],
+    "corrected_annotations": [
+        "On a city road, the weather is clear, and the traffic flow is light.",
+        "Ahead on the right, there is a dark-colored car (car_1) driving and about to pass the crosswalk.",
+        "On the left side of the vehicle, there is a pedestrian (person_1) standing by the roadside, possibly waiting to cross the street.",
+        "On the right side of the road are buildings and plants.",
+        "There are guardrails on both sides of the road to protect pedestrians from walking on the road.",
+        "The traffic sign ahead indicates a safety reminder for pedestrians crossing the street.",
+        "There is also a stop sign ahead, reminding vehicles to stop before proceeding.",
+        "The crosswalk markings are very clear, ensuring pedestrian safety."
+    ]
+}

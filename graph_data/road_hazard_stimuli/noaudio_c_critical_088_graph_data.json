@@ -1,0 +1,112 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "truck_2",
+                "type": "truck"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "barrier",
+                "type": "barrier"
+            },
+            {
+                "name": "trees",
+                "type": "barrier"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "silver",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "white_smoke",
+                "belong_to": "truck_2"
+            },
+            {
+                "value": "left_lane",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "right_lane",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "right_lane",
+                "belong_to": "truck_2"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "barrier",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "trees",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "truck_2",
+                "type": "Parallel"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "car_3",
+                "type": "Parallel"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "ego_vehicle",
+                "type": "Following"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "car_3",
+                "type": "Blocking"
+            }
+        ]
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "intersection_1",
+                "type": "intersection"
+            },
+            {
+                "name": "traffic_light_3",
+                "type": "traffic_light"
+            },
+            {
+                "name": "person_4",
+                "type": "pedestrian"
+            },
+            {
+                "name": "car_13",
+                "type": "car"
+            },
+            {
+                "name": "motorcycle_5",
+                "type": "motorcycle"
+            },
+            {
+                "name": "pedestrian_8",
+                "type": "pedestrian"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "car_7",
+                "type": "car"
+            },
+            {
+                "name": "person_10",
+                "type": "pedestrian"
+            },
+            {
+                "name": "truck_9",
+                "type": "truck"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "green",
+                "belong_to": "traffic_light_3"
+            },
+            {
+                "value": "silver",
+                "belong_to": "car_13"
+            },
+            {
+                "value": "red",
+                "belong_to": "motorcycle_5"
+            },
+            {
+                "value": "silver-white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_7"
+            },
+            {
+                "value": "black",
+                "belong_to": "truck_9"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "road",
+                "object_2": "intersection_1",
+                "type": "successor"
+            },
+            {
+                "object_1": "road",
+                "object_2": "traffic_light_3",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "road",
+                "object_2": "person_4",
+                "type": "nearby"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_13",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "motorcycle_5",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "ego_vehicle",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_1",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_7",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "person_10",
+                "type": "walking-along"
+            },
+            {
+                "object_1": "road",
+                "object_2": "truck_9",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "traffic_light_3",
+                "object_2": "intersection_1",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "person_4",
+                "object_2": "intersection_1",
+                "type": "waiting-at-crossroad"
+            },
+            {
+                "object_1": "car_13",
+                "object_2": "intersection_1",
+                "type": "approaching"
+            },
+            {
+                "object_1": "motorcycle_5",
+                "object_2": "intersection_1",
+                "type": "approaching"
+            },
+            {
+                "object_1": "motorcycle_5",
+                "object_2": "ego_vehicle",
+                "type": "waiting-for"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "ego_vehicle",
+                "type": "passing-by"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "car_1",
+                "type": "following"
+            },
+            {
+                "object_1": "person_10",
+                "object_2": "car_7",
+                "type": "following"
+            },
+            {
+                "object_1": "truck_9",
+                "object_2": "person_10",
+                "type": "following"
+            }
+        ]
+    }
+}

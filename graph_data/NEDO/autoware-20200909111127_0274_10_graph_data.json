@@ -1,0 +1,164 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "intersection",
+                "type": "intersection"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_1",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_2",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_3",
+                "type": "vehicle"
+            },
+            {
+                "name": "pedestrian_5",
+                "type": "pedestrian"
+            },
+            {
+                "name": "motorcycle_4",
+                "type": "motorcycle"
+            },
+            {
+                "name": "car_7",
+                "type": "vehicle"
+            },
+            {
+                "name": "speed_limit_sign_1",
+                "type": "sign"
+            },
+            {
+                "name": "speed_limit_sign_2",
+                "type": "sign"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_7"
+            },
+            {
+                "value": "40 km/h",
+                "belong_to": "speed_limit_sign_1"
+            },
+            {
+                "value": "40 km/h",
+                "belong_to": "speed_limit_sign_2"
+            },
+            {
+                "value": "no parking",
+                "belong_to": "speed_limit_sign_1"
+            },
+            {
+                "value": "no parking",
+                "belong_to": "speed_limit_sign_2"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "road",
+                "object_2": "intersection",
+                "type": "successor"
+            },
+            {
+                "object_1": "road",
+                "object_2": "ego_vehicle",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_1",
+                "type": "waiting-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_2",
+                "type": "waiting-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_3",
+                "type": "waiting-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "pedestrian_5",
+                "type": "nearby"
+            },
+            {
+                "object_1": "road",
+                "object_2": "motorcycle_4",
+                "type": "waiting-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_7",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "speed_limit_sign_1",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "road",
+                "object_2": "speed_limit_sign_2",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "car_7",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "car_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "car_2",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "car_3",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "car_2",
+                "type": "following"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "car_3",
+                "type": "following"
+            },
+            {
+                "object_1": "pedestrian_5",
+                "object_2": "motorcycle_4",
+                "type": "waiting-for"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "intersection",
+                "type": "waiting-at"
+            }
+        ]
+    }
+}

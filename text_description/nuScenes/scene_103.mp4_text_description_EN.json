@@ -1,0 +1,21 @@
+{
+    "scene_base_name": "scene_103.mp4",
+    "gpt_scene_description_list": [
+        "On a parking lot road, several cars are parked in parking spaces on both sides of the road ahead.",
+        "On the left side of the road, there is a black car (car_10) and a silver car (car_4) parked.",
+        "On the right side of the road, there are several cars parked, including a red car (car_2) and several other colored cars (car_7).",
+        "In the middle of the road, on the zebra crossing, there are two pedestrians (pedestrian_1 and pedestrian_2) crossing the road, moving from the right side to the left side.",
+        "At the end of the road, there is an arrow sign indicating that vehicles should continue straight.",
+        "None",
+        "The weather is clear, and the ambient lighting is sufficient."
+    ],
+    "corrected_annotations": [
+        "On a parking lot road, several cars are parked in parking spaces on both sides of the road ahead.",
+        "On the left side of the road, there is a black car (car_10) and a black car (car_4) parked.",
+        "On the right side of the road, there are several cars parked, including a red car (car_2) and several other colored cars (car_7).",
+        "In the middle of the road, on the zebra crossing, there are two pedestrians (pedestrian_1 and pedestrian_2) crossing the road, moving from the right side to the left side.",
+        "At the end of the road, there is an arrow sign indicating that vehicles should continue straight.",
+        "The ego-vehicle is stopped waiting for the pedestrians to pass, and after they pass, the ev continues driving.",
+        "The weather is clear, and the ambient lighting is sufficient."
+    ]
+}

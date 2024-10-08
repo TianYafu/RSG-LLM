@@ -1,0 +1,168 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "intersection",
+                "type": "intersection"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "bus_5",
+                "type": "bus"
+            },
+            {
+                "name": "motorcycle_8",
+                "type": "motorcycle"
+            },
+            {
+                "name": "motorcycle_10",
+                "type": "motorcycle"
+            },
+            {
+                "name": "traffic_light_7",
+                "type": "traffic_light"
+            },
+            {
+                "name": "traffic_light_1",
+                "type": "traffic_light"
+            },
+            {
+                "name": "track_5",
+                "type": "truck"
+            },
+            {
+                "name": "car_16",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "dry",
+                "belong_to": "road"
+            },
+            {
+                "value": "sunny",
+                "belong_to": "road"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "blue",
+                "belong_to": "bus_5"
+            },
+            {
+                "value": "stationary",
+                "belong_to": "motorcycle_8"
+            },
+            {
+                "value": "stationary",
+                "belong_to": "motorcycle_10"
+            },
+            {
+                "value": "green",
+                "belong_to": "traffic_light_7"
+            },
+            {
+                "value": "green",
+                "belong_to": "traffic_light_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "track_5"
+            },
+            {
+                "value": "silver",
+                "belong_to": "car_16"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "road",
+                "object_2": "intersection",
+                "type": "successor"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "bus_5",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "motorcycle_8",
+                "object_2": "road",
+                "type": "parking-on"
+            },
+            {
+                "object_1": "motorcycle_10",
+                "object_2": "road",
+                "type": "parking-on"
+            },
+            {
+                "object_1": "traffic_light_7",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "traffic_light_1",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "track_5",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_16",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "car_2",
+                "type": "following"
+            },
+            {
+                "object_1": "bus_5",
+                "object_2": "car_3",
+                "type": "following"
+            },
+            {
+                "object_1": "track_5",
+                "object_2": "car_2",
+                "type": "driving-near"
+            },
+            {
+                "object_1": "car_16",
+                "object_2": "car_2",
+                "type": "driving-near"
+            }
+        ]
+    }
+}

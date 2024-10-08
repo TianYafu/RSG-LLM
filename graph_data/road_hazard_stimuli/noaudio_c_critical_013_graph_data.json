@@ -1,0 +1,198 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "truck_2",
+                "type": "truck"
+            },
+            {
+                "name": "car_4",
+                "type": "car"
+            },
+            {
+                "name": "car_11",
+                "type": "car"
+            },
+            {
+                "name": "motorcycle_13",
+                "type": "motorcycle"
+            },
+            {
+                "name": "person_14",
+                "type": "pedestrian"
+            },
+            {
+                "name": "yellow_object",
+                "type": "object"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "car_12",
+                "type": "car"
+            },
+            {
+                "name": "car_15",
+                "type": "car"
+            },
+            {
+                "name": "car_19",
+                "type": "car"
+            },
+            {
+                "name": "car_21",
+                "type": "car"
+            },
+            {
+                "name": "car_22",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "silver",
+                "belong_to": "truck_2"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_11"
+            },
+            {
+                "value": "black",
+                "belong_to": "motorcycle_13"
+            },
+            {
+                "value": "yellow",
+                "belong_to": "yellow_object"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_11",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "motorcycle_13",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "person_14",
+                "object_2": "motorcycle_13",
+                "type": "Riding"
+            },
+            {
+                "object_1": "yellow_object",
+                "object_2": "truck_2",
+                "type": "Loaded-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_15",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_19",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_21",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_22",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "car_3",
+                "type": "Following"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "car_4",
+                "type": "Following"
+            },
+            {
+                "object_1": "motorcycle_13",
+                "object_2": "truck_2",
+                "type": "Overtaking"
+            },
+            {
+                "object_1": "motorcycle_13",
+                "object_2": "yellow_object",
+                "type": "Avoiding"
+            },
+            {
+                "object_1": "person_14",
+                "object_2": "yellow_object",
+                "type": "Avoiding"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "yellow_object",
+                "type": "Avoiding"
+            }
+        ]
+    }
+}

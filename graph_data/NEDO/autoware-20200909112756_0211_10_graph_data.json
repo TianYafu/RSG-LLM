@@ -1,0 +1,127 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "person_1",
+                "type": "pedestrian"
+            },
+            {
+                "name": "building_1",
+                "type": "building"
+            },
+            {
+                "name": "plant_1",
+                "type": "plant"
+            },
+            {
+                "name": "barrier_1",
+                "type": "barrier"
+            },
+            {
+                "name": "barrier_2",
+                "type": "barrier"
+            },
+            {
+                "name": "crosswalk_1",
+                "type": "crosswalk"
+            },
+            {
+                "name": "traffic_sign_1",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "stop_sign_1",
+                "type": "stop_sign"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "dark",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "standing",
+                "belong_to": "person_1"
+            },
+            {
+                "value": "clear_marking",
+                "belong_to": "crosswalk_1"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "person_1",
+                "object_2": "road",
+                "type": "nearby"
+            },
+            {
+                "object_1": "building_1",
+                "object_2": "road",
+                "type": "nearby"
+            },
+            {
+                "object_1": "plant_1",
+                "object_2": "road",
+                "type": "nearby"
+            },
+            {
+                "object_1": "barrier_1",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "barrier_2",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "crosswalk_1",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "traffic_sign_1",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "stop_sign_1",
+                "object_2": "road",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "crosswalk_1",
+                "type": "approaching"
+            },
+            {
+                "object_1": "person_1",
+                "object_2": "crosswalk_1",
+                "type": "waiting-at"
+            },
+            {
+                "object_1": "barrier_1",
+                "object_2": "person_1",
+                "type": "nearby"
+            },
+            {
+                "object_1": "barrier_2",
+                "object_2": "car_1",
+                "type": "passing-by"
+            }
+        ]
+    }
+}

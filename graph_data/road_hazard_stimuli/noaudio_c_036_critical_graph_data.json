@@ -1,0 +1,99 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "truck_3",
+                "type": "truck"
+            },
+            {
+                "name": "car_10",
+                "type": "trailer"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "white",
+                "belong_to": "truck_3"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "cloudy",
+                "belong_to": "road"
+            },
+            {
+                "value": "slightly_congested",
+                "belong_to": "road"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_10",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_3",
+                "object_2": "car_10",
+                "type": "Towing"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "truck_3",
+                "type": "Following"
+            },
+            {
+                "object_1": "truck_3",
+                "object_2": "ego_vehicle",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "ego_vehicle",
+                "type": "Following"
+            }
+        ]
+    }
+}

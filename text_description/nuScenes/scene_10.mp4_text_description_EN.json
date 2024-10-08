@@ -1,0 +1,31 @@
+{
+    "scene_base_name": "scene_10.mp4",
+    "gpt_scene_description_list": [
+        "In the video, the scene shows a city road with rather overcast weather.",
+        "On the left side of the road, a large truck (car_3) is parked.",
+        "In front of the truck (car_3), there is another truck (car_5).",
+        "Following closely behind is another truck (car_6).",
+        "These vehicles seem to be parked on the side of the road, with the truck lights on at the rear, possibly indicating loading or unloading of goods.",
+        "In the middle of the lane, in the direction of the road, there is a white car (car_2).",
+        "The white car (car_2) is located behind a light-colored truck (truck_1), possibly following it.",
+        "In the far right of the lane, there is another white car (car_4), which is in motion.",
+        "Behind car_2 and truck_1, there are several vehicles in sequence (car_7, car_8, car_9, car_10, car_11).",
+        "On the right side of the road, there is a green belt and several trees.",
+        "The ego-vehicle is following a series of vehicles in the direction of the lane, with a clear view ahead and road markings.",
+        "The traffic conditions on the road in the video are relatively smooth, with no obvious congestion ahead."
+    ],
+    "corrected_annotations": [
+        "In the video, the scene shows a city road with rather overcast weather.",
+        "On the left side of the road, a large truck (car_3) is parked.",
+        "In front of the truck (car_3), there is another truck (car_5).",
+        "None",
+        "These vehicles seem to be parked on the side of the road, with the truck lights on at the rear, possibly indicating loading or unloading of goods.",
+        "In the middle of the lane, in the direction of the road, there is a white car (car_2).",
+        "In the opposite lane, truck car_1 is parked on the roadside.",
+        "None",
+        "None",
+        "On the right side of the road, there is a green belt and several trees.",
+        "The ego-vehicle changes lanes to avoid the parked truck car_3, then follows a series of vehicles in the direction of the lane, with a clear view ahead and road markings.",
+        "The traffic conditions on the road in the video are relatively smooth, with no obvious congestion ahead."
+    ]
+}

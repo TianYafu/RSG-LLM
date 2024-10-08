@@ -1,0 +1,37 @@
+{
+    "scene_base_name": "noaudio_c_critical_013.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a highway, the weather is clear with a few white clouds in the sky.",
+        "In the central lane ahead, there is a black car (car_1) driving.",
+        "In front of the black car (car_1), there is a white car (car_3) driving.",
+        "In the emergency lane on the left side of the central lane, there is a silver truck (truck_2) carrying yellow objects, driving.",
+        "In front of the truck (truck_2), there is a black car (car_4) driving.",
+        "The black car (car_4) is overtaking the silver truck (truck_2).",
+        "In the emergency lane next to the green belt on the left side lane, there are several stationary vehicles (car_8, car_7, car_6).",
+        "In the right lane, a black car (car_11) is driving.",
+        "Further ahead in the right lane, there are some other signs and billboards.",
+        "In the left lane, a black motorcycle (motorcycle_13) and its rider (person_14) are moving forward, about to overtake the silver truck (truck_2).",
+        "None",
+        "None",
+        "Further ahead in the left lane, there is a yellow car (car_24) that is about to overtake.",
+        "On the right side of the road, in the distance, some other vehicles (car_12, car_15, car_19, car_21, car_22) can be seen driving or parked.",
+        "Overall, the traffic flow is moderate, vehicles are moving smoothly, and the weather is clear."
+    ],
+    "corrected_annotations": [
+        "On a highway, the weather is clear with a few white clouds in the sky.",
+        "In the right lane ahead, there is a black car (car_1) driving.",
+        "In front of the black car (car_1), there is a white car (car_3) driving.",
+        "In the left side of the central lane, there is a silver truck (truck_2) carrying yellow objects, driving.",
+        "In front of the truck (truck_2), there is a black car (car_4) driving.",
+        "None",
+        "None",
+        "In the right lane, a black car (car_11) is driving.",
+        "Further ahead in the right lane, there are some other signs and billboards.",
+        "In the left lane, a black motorcycle (motorcycle_13) and its rider (person_14) are moving forward, about to overtake the silver truck (truck_2).",
+        "The yellow objects loaded on truck_2 suddenly fall off. The motorcycle (motorcycle_13) and its rider (person_14) make an emergency maneuver to avoid the objects.",
+        "The ego-vehicle is going straight but also needs to avoid the objects.",
+        "None",
+        "On the right side of the road, in the distance, some other vehicles (car_12, car_15, car_19, car_21, car_22) can be seen driving or parked.",
+        "Overall, the traffic flow is moderate, vehicles are moving smoothly, and the weather is clear."
+    ]
+}

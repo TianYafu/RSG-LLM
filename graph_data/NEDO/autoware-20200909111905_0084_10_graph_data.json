@@ -1,0 +1,150 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "bus_1",
+                "type": "bus"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "person_4",
+                "type": "pedestrian"
+            },
+            {
+                "name": "car_5",
+                "type": "car"
+            },
+            {
+                "name": "traffic_light_6",
+                "type": "traffic_light"
+            },
+            {
+                "name": "traffic_light_10",
+                "type": "traffic_light"
+            },
+            {
+                "name": "intersection",
+                "type": "intersection"
+            },
+            {
+                "name": "car_8",
+                "type": "car"
+            },
+            {
+                "name": "car_9",
+                "type": "car"
+            },
+            {
+                "name": "car_14",
+                "type": "car"
+            },
+            {
+                "name": "bicycle_19",
+                "type": "bicycle"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "silver",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "good_condition",
+                "belong_to": "road"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "bus_1",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "bus_1",
+                "object_2": "car_2",
+                "type": "following"
+            },
+            {
+                "object_1": "bus_1",
+                "object_2": "intersection",
+                "type": "approaching"
+            },
+            {
+                "object_1": "person_4",
+                "object_2": "road",
+                "type": "nearby"
+            },
+            {
+                "object_1": "person_4",
+                "object_2": "intersection",
+                "type": "nearby"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "intersection",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "traffic_light_6",
+                "object_2": "intersection",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "traffic_light_10",
+                "object_2": "intersection",
+                "type": "locate-here"
+            },
+            {
+                "object_1": "car_8",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "car_14",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "bicycle_19",
+                "object_2": "road",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "bicycle_19",
+                "object_2": "intersection",
+                "type": "driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "intersection",
+                "type": "approaching"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "traffic_light_6",
+                "type": "approaching"
+            }
+        ]
+    }
+}

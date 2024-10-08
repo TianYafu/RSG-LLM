@@ -1,0 +1,133 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "truck"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "truck"
+            },
+            {
+                "name": "car_5",
+                "type": "truck"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "green_belt",
+                "type": "green_belt"
+            },
+            {
+                "name": "tree_1",
+                "type": "tree"
+            },
+            {
+                "name": "tree_2",
+                "type": "tree"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "large",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "large",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "stopped",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "moving",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "moving",
+                "belong_to": "ego_vehicle"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "road",
+                "object_2": "car_1",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_2",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_3",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "car_5",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "ego_vehicle",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "road",
+                "object_2": "green_belt",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "green_belt",
+                "object_2": "tree_1",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "green_belt",
+                "object_2": "tree_2",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "car_5",
+                "type": "Following"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_2",
+                "type": "Following"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_3",
+                "type": "Avoiding"
+            }
+        ]
+    }
+}

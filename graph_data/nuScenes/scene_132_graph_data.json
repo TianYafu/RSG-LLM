@@ -1,0 +1,211 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_7",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "car_6",
+                "type": "car"
+            },
+            {
+                "name": "car_0",
+                "type": "car"
+            },
+            {
+                "name": "car_8",
+                "type": "car"
+            },
+            {
+                "name": "car_4",
+                "type": "car"
+            },
+            {
+                "name": "car_12",
+                "type": "car"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_5",
+                "type": "car"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "barrier_2",
+                "type": "barrier"
+            },
+            {
+                "name": "barrier_9",
+                "type": "barrier"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_7"
+            },
+            {
+                "value": "gray",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "silver",
+                "belong_to": "car_6"
+            },
+            {
+                "value": "gray",
+                "belong_to": "car_0"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_8"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "dark",
+                "belong_to": "car_12"
+            },
+            {
+                "value": "dark",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "gray",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "construction_area",
+                "belong_to": "road"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_7",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_6",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_0",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_8",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Waiting-on"
+            },
+            {
+                "object_1": "barrier_2",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "barrier_9",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "car_3",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "car_6",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_6",
+                "object_2": "car_0",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_0",
+                "object_2": "car_8",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_8",
+                "object_2": "car_4",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "car_12",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_12",
+                "object_2": "car_2",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "car_5",
+                "type": "Following"
+            }
+        ]
+    }
+}

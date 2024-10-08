@@ -1,0 +1,146 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "truck_1",
+                "type": "truck"
+            },
+            {
+                "name": "car_4",
+                "type": "car"
+            },
+            {
+                "name": "person_3",
+                "type": "pedestrian"
+            },
+            {
+                "name": "barrier_1",
+                "type": "barrier"
+            },
+            {
+                "name": "traffic_cone_1",
+                "type": "barrier"
+            },
+            {
+                "name": "person_6",
+                "type": "pedestrian"
+            },
+            {
+                "name": "person_8",
+                "type": "pedestrian"
+            },
+            {
+                "name": "traffic_light_9",
+                "type": "traffic_light"
+            },
+            {
+                "name": "traffic_light_13",
+                "type": "traffic_light"
+            },
+            {
+                "name": "car_15",
+                "type": "car"
+            },
+            {
+                "name": "person_11",
+                "type": "pedestrian"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "stopped",
+                "belong_to": "truck_1"
+            },
+            {
+                "value": "parked",
+                "belong_to": "car_4"
+            },
+            {
+                "value": "walking",
+                "belong_to": "person_3"
+            },
+            {
+                "value": "construction",
+                "belong_to": "person_6"
+            },
+            {
+                "value": "construction",
+                "belong_to": "person_8"
+            },
+            {
+                "value": "crossing",
+                "belong_to": "car_15"
+            },
+            {
+                "value": "walking",
+                "belong_to": "person_11"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "truck_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_4",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "person_3",
+                "object_2": "road",
+                "type": "Walking-along"
+            },
+            {
+                "object_1": "barrier_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "traffic_cone_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "person_6",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_8",
+                "object_2": "road",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "person_6",
+                "object_2": "person_8",
+                "type": "Nearby"
+            },
+            {
+                "object_1": "traffic_light_9",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "traffic_light_13",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "car_15",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "person_11",
+                "object_2": "road",
+                "type": "Walking-along"
+            }
+        ]
+    }
+}

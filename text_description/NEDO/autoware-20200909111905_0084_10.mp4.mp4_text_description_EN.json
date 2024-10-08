@@ -1,0 +1,31 @@
+{
+    "scene_base_name": "autoware-20200909111905_0084_10.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, there is a bus (bus_1) ahead traveling along the right side of the road.",
+        "The bus (bus_1) continues to travel, approaching a pedestrian crossing.",
+        "In front of the bus (bus_1), a car (car_2) is traveling in the distance.",
+        "On the pedestrian bridge on the left, there is a pedestrian (person_4) walking.",
+        "To the right of the bus (bus_1), there is a silver car (car_5) slowing down and preparing to stop.",
+        "There is a traffic light (traffic_light_6) and another traffic light (traffic_light_10) on the road ahead, which is an intersection.",
+        "There is a bench (bench_11) on the right side of the road.",
+        "In the distance, several cars (car_8), (car_9), (car_14), and a motorcycle (motorcycle_19) can be seen.",
+        "None",
+        "On the grass on the left, there is another pedestrian (person_17) walking.",
+        "Overall, the scene shows a sunny day, good road conditions, and moderate traffic flow.",
+        "The ego-vehicle follows the bus (bus_1) and will approach a traffic light-controlled intersection."
+    ],
+    "corrected_annotations": [
+        "On a city road, there is a bus (bus_1) ahead traveling along the right side of the road.",
+        "The bus (bus_1) continues to travel, approaching a pedestrian crossing.",
+        "In front of the bus (bus_1), a car (car_2) is traveling in the distance.",
+        "On the pedestrian bridge on the left, there is a pedestrian (person_4) walking.",
+        "At the intersection ahead, a silver car (car_5) enters from the right road and passes through the intersection.",
+        "There is a traffic light (traffic_light_6) and another traffic light (traffic_light_10) on the road ahead, which is an intersection.",
+        "None",
+        "In the distance, several cars (car_8), (car_9), (car_14), and a motorcycle (bicycle_19) can be seen.",
+        "The motorcycle (bicycle_19) enters from the right road and passes through the intersection.",
+        "None",
+        "Overall, the scene shows a sunny day, good road conditions, and moderate traffic flow.",
+        "The ego-vehicle approaches a traffic light-controlled intersection."
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "scene_base_name": "noaudio_c_critical_012.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a tree-lined urban road, there is an intersection controlled by a traffic signal.",
+        "The traffic light (traffic_light_3) shows red.",
+        "Not far ahead, a white car (car_1) is stopped at the intersection waiting for the signal.",
+        "In front of the white car (car_1), another car (car_8) is also stopped by the roadside.",
+        "Several vehicles (car_2, car_9, car_12, car_13) are stationary on the right side of the intersection waiting for the signal to change.",
+        "In the middle of the road, there are multiple moving and stationary vehicles.",
+        "A black car (car_5) is located in the middle ahead and is stationary.",
+        "In the distance, several cars (car_6, car_10, truck_11) are heading towards the intersection.",
+        "The traffic light (traffic_light_4) in the middle section of the road also shows red.",
+        "Vehicles are stationary, waiting for the signal to change.",
+        "The weather on site is clear.",
+        "Traffic flow is low."
+    ],
+    "corrected_annotations": [
+        "On a tree-lined urban road, there is an intersection controlled by a traffic signal.",
+        "The traffic light (traffic_light_3) shows red.",
+        "Not far ahead, a white car (car_1) is turning right through the intersection.",
+        "The white car (car_1) follows another car (car_6) ahead, turning right through the intersection.",
+        "Several vehicles (car_2, car_9, car_12, car_13) are waiting on the right side of the intersection for the signal to change, then proceed straight through the intersection.",
+        "In the middle of the road, there are multiple moving and stationary vehicles.",
+        "A black car (car_11) runs a red light, passing through the intersection from the opposite lane of the ego-vehicle.",
+        "Car_2, which is passing through the intersection normally, collides with the red-light-running car_11.",
+        "The traffic light (traffic_light_4) in the middle section of the road also shows red.",
+        "Vehicles are stationary, waiting for the signal to change.",
+        "The weather on site is clear.",
+        "Traffic flow is low."
+    ]
+}

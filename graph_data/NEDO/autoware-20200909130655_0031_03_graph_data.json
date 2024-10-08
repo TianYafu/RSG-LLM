@@ -1,0 +1,116 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "stop_sign_5",
+                "type": "stop_sign"
+            },
+            {
+                "name": "pedestrian_crossing_sign",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "car_7",
+                "type": "car"
+            },
+            {
+                "name": "truck_8",
+                "type": "truck"
+            },
+            {
+                "name": "car_9",
+                "type": "car"
+            },
+            {
+                "name": "intersection",
+                "type": "intersection"
+            },
+            {
+                "name": "egovehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_7"
+            },
+            {
+                "value": "white",
+                "belong_to": "truck_8"
+            },
+            {
+                "value": "white",
+                "belong_to": "car_9"
+            },
+            {
+                "value": "decelerating",
+                "belong_to": "egovehicle"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "stop_sign_5",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "pedestrian_crossing_sign",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "truck_8",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "intersection",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "egovehicle",
+                "object_2": "intersection",
+                "type": "Waiting-at-intersection"
+            },
+            {
+                "object_1": "egovehicle",
+                "object_2": "car_9",
+                "type": "Waiting-for"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "road",
+                "type": "Predecessor"
+            }
+        ]
+    }
+}

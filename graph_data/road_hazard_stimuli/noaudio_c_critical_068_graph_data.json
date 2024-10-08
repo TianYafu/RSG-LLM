@@ -1,0 +1,154 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "truck_1",
+                "type": "truck"
+            },
+            {
+                "name": "truck_2",
+                "type": "truck"
+            },
+            {
+                "name": "car_5",
+                "type": "car"
+            },
+            {
+                "name": "truck_6",
+                "type": "truck"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "car_7",
+                "type": "car"
+            },
+            {
+                "name": "traffic_sign_1",
+                "type": "traffic_sign"
+            },
+            {
+                "name": "traffic_sign_2",
+                "type": "traffic_sign"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "red",
+                "belong_to": "truck_1"
+            },
+            {
+                "value": "white",
+                "belong_to": "truck_2"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "white",
+                "belong_to": "truck_6"
+            },
+            {
+                "value": "colorful_ad",
+                "belong_to": "truck_6"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_7"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_1",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "truck_6",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "traffic_sign_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "traffic_sign_2",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "truck_1",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "truck_2",
+                "object_2": "ego_vehicle",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "truck_2",
+                "type": "Following"
+            },
+            {
+                "object_1": "truck_6",
+                "object_2": "car_5",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "truck_6",
+                "type": "Following"
+            },
+            {
+                "object_1": "car_7",
+                "object_2": "ego_vehicle",
+                "type": "Overtaking"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_5",
+                "type": "Following"
+            }
+        ]
+    }
+}

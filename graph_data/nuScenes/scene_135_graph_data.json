@@ -1,0 +1,103 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "car_5",
+                "type": "car"
+            },
+            {
+                "name": "car_0",
+                "type": "bus"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            },
+            {
+                "name": "intersection",
+                "type": "intersection"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "black",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "large",
+                "belong_to": "car_5"
+            },
+            {
+                "value": "shiny",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "silver",
+                "belong_to": "car_2"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_5",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_0",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_0",
+                "object_2": "intersection",
+                "type": "Turn-Right"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "car_0",
+                "type": "Approaching"
+            },
+            {
+                "object_1": "intersection",
+                "object_2": "road",
+                "type": "Locate-here"
+            }
+        ]
+    }
+}

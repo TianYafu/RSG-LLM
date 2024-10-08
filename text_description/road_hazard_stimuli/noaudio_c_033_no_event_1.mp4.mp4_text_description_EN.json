@@ -1,0 +1,27 @@
+{
+    "scene_base_name": "noaudio_c_033_no_event_1.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, the ego-vehicle is driving.",
+        "There are several parked vehicles on both sides of the road, most of which are stationary.",
+        "On the right side of the road, there is a dark gray car (car_1) parked by the roadside, and in front of it is a silver SUV (truck_6), also parked by the roadside.",
+        "On the left side of the road, there is a red car (car_3), which is moving forward.",
+        "In front of the red car (car_3) is a black car (car_2), and a blue pickup truck (truck_4).",
+        "In front of the black car (car_2) and the blue pickup truck (truck_4) is a black car (car_4).",
+        "Further ahead, the blue pickup truck (truck_4) is overtaking the red car (car_3) and heading towards the intersection ahead.",
+        "In the distance, the direction of travel is towards the city center, with several cars stopping at the traffic lights.",
+        "The weather is clear, the road conditions are good, and the traffic flow is moderate.",
+        "None"
+    ],
+    "corrected_annotations": [
+        "On a city road, the ego-vehicle is driving.",
+        "There are several parked vehicles on both sides of the road, most of which are stationary.",
+        "On the right side of the road, there is a dark gray car (car_1) parked by the roadside, and in front of it is a silver SUV (truck_6), also parked by the roadside.",
+        "On the left side of the road, there is a red car (car_3), which is parked by the roadside.",
+        "Behind the red car (car_3) is a black car (car_2), and a blue pickup truck (truck_4). Also parked by the roadside.",
+        "None",
+        "None",
+        "In the distance, the direction of travel is towards the city center, with several cars stopping at the traffic lights.",
+        "The weather is clear, the road conditions are good, and the traffic flow is moderate.",
+        "In the opposite lane, car_9 is going straight, approaching the parked truck_4."
+    ]
+}

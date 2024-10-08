@@ -1,0 +1,117 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "vehicle"
+            },
+            {
+                "name": "car_1",
+                "type": "car"
+            },
+            {
+                "name": "truck_6",
+                "type": "truck"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "truck_4",
+                "type": "truck"
+            },
+            {
+                "name": "car_9",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "deep_gray",
+                "belong_to": "car_1"
+            },
+            {
+                "value": "silver",
+                "belong_to": "truck_6"
+            },
+            {
+                "value": "red",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "black",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "blue",
+                "belong_to": "truck_4"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "truck_6",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "truck_4",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "car_1",
+                "object_2": "truck_6",
+                "type": "Behind"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "car_2",
+                "type": "Behind"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "truck_4",
+                "type": "Behind"
+            },
+            {
+                "object_1": "car_9",
+                "object_2": "truck_4",
+                "type": "Approaching"
+            }
+        ]
+    }
+}

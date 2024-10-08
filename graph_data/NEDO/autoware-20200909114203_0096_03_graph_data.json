@@ -1,0 +1,121 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "name": "road",
+                "type": "road"
+            },
+            {
+                "name": "truck_1",
+                "type": "truck"
+            },
+            {
+                "name": "car_2",
+                "type": "car"
+            },
+            {
+                "name": "person_4",
+                "type": "pedestrian"
+            },
+            {
+                "name": "tree_1",
+                "type": "tree"
+            },
+            {
+                "name": "tree_2",
+                "type": "tree"
+            },
+            {
+                "name": "fence_1",
+                "type": "fence"
+            },
+            {
+                "name": "car_3",
+                "type": "car"
+            },
+            {
+                "name": "ego_vehicle",
+                "type": "car"
+            }
+        ],
+        "attributes": [
+            {
+                "value": "white",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "green",
+                "belong_to": "car_3"
+            },
+            {
+                "value": "waiting",
+                "belong_to": "car_2"
+            },
+            {
+                "value": "waiting",
+                "belong_to": "person_4"
+            },
+            {
+                "value": "parked",
+                "belong_to": "truck_1"
+            }
+        ],
+        "edges": [
+            {
+                "object_1": "truck_1",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "road",
+                "type": "Parking-on"
+            },
+            {
+                "object_1": "person_4",
+                "object_2": "road",
+                "type": "Waiting-at-crossroad"
+            },
+            {
+                "object_1": "tree_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "tree_2",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "fence_1",
+                "object_2": "road",
+                "type": "Locate-here"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "road",
+                "type": "Driving-on"
+            },
+            {
+                "object_1": "ego_vehicle",
+                "object_2": "truck_1",
+                "type": "Avoiding"
+            },
+            {
+                "object_1": "car_2",
+                "object_2": "ego_vehicle",
+                "type": "Waiting-for"
+            },
+            {
+                "object_1": "car_3",
+                "object_2": "ego_vehicle",
+                "type": "Following"
+            }
+        ]
+    }
+}

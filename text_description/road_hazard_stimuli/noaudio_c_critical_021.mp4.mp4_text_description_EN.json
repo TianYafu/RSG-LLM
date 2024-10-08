@@ -1,0 +1,33 @@
+{
+    "scene_base_name": "noaudio_c_critical_021.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, vehicles and pedestrians appear to be quite busy.",
+        "On the left side of the road ahead, a black car (car_1) is approaching the roadside to park.",
+        "In front of the black car (car_1), a silver car (car_2) is parked by the roadside.",
+        "Further ahead, a white car (car_4) is also parked at the edge of the left side of the road.",
+        "In the middle lane, there are several cars driving, including a black car (car_5), a silver SUV (car_6), and another black car (car_7), all of which seem to be in motion.",
+        "On the right side of the road, a gray car (car_8) can be seen parked in front of a building.",
+        "In the middle of the road, there is a pedestrian warning sign, reminding drivers to watch out for pedestrians crossing the street.",
+        "Further ahead, more vehicles can be seen driving and parked, indicating heavy traffic flow in this area.",
+        "The road is lined with green trees on both sides, providing a comfortable environment.",
+        "The weather is overcast, possibly with light rain, and the wet road surface, along with the working windshield wipers, further indicates this.",
+        "The ego-vehicle is driving according to the road, maintaining a certain distance from the vehicles ahead, adapting to the current traffic conditions.",
+        "Overall, this city road scene is quite busy, with vehicles moving in an orderly manner.",
+        "None"
+    ],
+    "corrected_annotations": [
+        "On a city road, vehicles and pedestrians appear to be quite busy.",
+        "In the oncoming lane of the ego-vehicle, a black car (car_1), a silver car (car_2), car_4, car_7, and car_10 are waiting in line to pass.",
+        "None",
+        "None",
+        "In front of the ego-vehicle, there are several cars driving, including a black car (car_5), a silver SUV (car_6), and another black car (car_7), all of which seem to be in motion.",
+        "On the right side of the road, a gray car (car_8) can be seen parked in front of a building.",
+        "In the middle of the road, there is a pedestrian warning sign, reminding drivers to watch out for pedestrians crossing the street.",
+        "Further ahead, more vehicles can be seen driving and parked, indicating heavy traffic flow in this area.",
+        "The road is lined with green trees on both sides, providing a comfortable environment.",
+        "The weather is overcast, possibly with light rain, and the wet road surface, along with the working windshield wipers, further indicates this.",
+        "The ego-vehicle is driving according to the road, maintaining a certain distance from the vehicles ahead, adapting to the current traffic conditions.",
+        "Overall, this city road scene is quite busy, with vehicles moving in an orderly manner.",
+        "On the right side auxiliary road, a white car (car_25) suddenly pulls out, possibly colliding with the ego-vehicle."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "scene_base_name": "autoware-20200909110126_0061_10.mp4.mp4",
+    "gpt_scene_description_list": [
+        "On a city road, a blue car (car_1) is parked on the left side of the road, with a pedestrian (person_3) inside the car.",
+        "Across the yellow line in the middle of the road, another gray car (car_2) is driving on the right side of the road.",
+        "None",
+        "Behind the gray car (car_2), there is another car (car_4) following.",
+        "There are utility poles beside the road, and trees and buildings can be seen. The weather is clear.",
+        "None"
+    ],
+    "corrected_annotations": [
+        "On a city road, a blue car (car_1) is driving straight from the left side of the road ahead.",
+        "Across the yellow line in the middle of the road, another gray car (car_2) is driving on the right side of the road.",
+        "Car_2 drives straight past the ego-vehicle, the ego-vehicle waits for car_2 to pass.",
+        "None",
+        "There are utility poles beside the road, and trees and buildings can be seen. The weather is clear.",
+        "The ego-vehicle is stopped on the side road, waiting for an opportunity to merge into the main road."
+    ]
+}
